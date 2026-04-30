@@ -1,0 +1,25 @@
+name: package_demo
+description: Flutter package demo project
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.1.0
+  animated_text_kit: ^4.2.2
+  liquid_pull_to_refresh: ^3.0.1
+  motion_tab_bar_v2: ^0.4.0
+  confetti: ^0.7.0 # Хуучин, анхааруулга гарч болзошгүй
+  lottie: ^3.1.0
+  wave_progress_indicator: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
